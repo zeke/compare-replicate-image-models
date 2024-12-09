@@ -24,14 +24,16 @@ await writeFile('models.json', JSON.stringify(mostRunModels, null, 2))
 console.log(`
 # Comparing Image Generation Models on Replicate
 
-This is a table of image generation models on Replicate, sorted by run count.
+This is a repo for comparing API interfaces and features of image generation models on Replicate.
+
+The models: https://replicate.com/collections/text-to-image
 
 Interpreting this table:
 
-- Prompt: Does the model have a \`prompt\` input?
-- img2img: Does the model have an \`image\` input?
-- Mask: Does the model have a \`mask\` input for inpainting?
-- Aspect Ratio: Does the model have an \`aspect_ratio\` input?
+- Prompt: Does the model have an input called \`prompt\`?
+- img2img: Does the model have an input called \`image\`?
+- Mask: Does the model have an input called \`mask\`?
+- Aspect Ratio: Does the model have an input called \`aspect_ratio\`?
 - Multi-output: Does the model return multiple outputs, or just one?
 
 ---
