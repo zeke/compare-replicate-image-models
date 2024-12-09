@@ -33,12 +33,13 @@ Interpreting this table:
 - Prompt: Does the model have an input called \`prompt\`?
 - img2img: Does the model have an input called \`image\`?
 - Mask: Does the model have an input called \`mask\`?
-- Aspect Ratio: Does the model have an input called \`aspect_ratio\`?
+- Aspect Ratio: Does the model have an input for aspect ratio?
+- WxH: Does the model have inputs for width and height?
 - Multi-output: Does the model return multiple outputs, or just one?
 
 ---
 
-Model | Runs | Prompt | img2img | Mask | Aspect Ratio | Multi-output
+Model | Runs | Prompt | img2img | Mask | Aspect Ratio | WxH | Multi-output
 ----- | ---- | ------ | ------- | ---- | ------------ | ------------`)
 
 for (const model of mostRunModels) {
@@ -46,7 +47,7 @@ for (const model of mostRunModels) {
   const output = model.latest_version.openapi_schema.components.schemas.Output
   const mask = Object.keys(input).some(key => key.toLowerCase().includes('mask'))
   const aspectRatio = Object.keys(input).some(key => key.toLowerCase().includes('aspect') && key.toLowerCase().includes('ratio'))
-
+  const widthAndHeight = Object.keys(input).some(key => key.toLowerCase().includes('width') && key.toLowerCase().includes('height'))
   const multipleOutput = output.type === 'array'
 
   console.log([
@@ -56,6 +57,7 @@ for (const model of mostRunModels) {
     input.image ? '✅' : '❌',
     mask ? '✅' : '❌',
     aspectRatio ? '✅' : '❌',
+    widthAndHeight ? '✅' : '❌',
     multipleOutput ? '✅' : '❌'
   ].join(' | '))
 }
