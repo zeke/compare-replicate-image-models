@@ -47,7 +47,7 @@ for (const model of mostRunModels) {
   const output = model.latest_version.openapi_schema.components.schemas.Output
   const mask = Object.keys(input).some(key => key.toLowerCase().includes('mask'))
   const aspectRatio = Object.keys(input).some(key => key.toLowerCase().includes('aspect') && key.toLowerCase().includes('ratio'))
-  const widthAndHeight = Object.keys(input).some(key => key.toLowerCase().includes('width') && key.toLowerCase().includes('height'))
+  const widthAndHeight = Object.keys(input).includes('width') && Object.keys(input).includes('height')
   const multipleOutput = output.type === 'array'
 
   console.log([
