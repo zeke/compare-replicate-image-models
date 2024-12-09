@@ -539,7 +539,7 @@
     "name": "sdxl-lightning-4step",
     "owner": "bytedance",
     "paper_url": "https://huggingface.co/ByteDance/SDXL-Lightning/resolve/main/sdxl_lightning_report.pdf",
-    "run_count": 598630999,
+    "run_count": 598636933,
     "url": "https://replicate.com/bytedance/sdxl-lightning-4step",
     "visibility": "public",
     "weights_url": "https://huggingface.co/ByteDance/SDXL-Lightning"
@@ -1100,7 +1100,7 @@
     "name": "flux-schnell",
     "owner": "black-forest-labs",
     "paper_url": null,
-    "run_count": 152155005,
+    "run_count": 152157555,
     "url": "https://replicate.com/black-forest-labs/flux-schnell",
     "visibility": "public",
     "weights_url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell"
@@ -1682,7 +1682,7 @@
     "name": "stable-diffusion",
     "owner": "stability-ai",
     "paper_url": "https://arxiv.org/abs/2112.10752",
-    "run_count": 109690113,
+    "run_count": 109690125,
     "url": "https://replicate.com/stability-ai/stable-diffusion",
     "visibility": "public",
     "weights_url": null
@@ -2749,7 +2749,7 @@
     "name": "sdxl",
     "owner": "stability-ai",
     "paper_url": "https://arxiv.org/abs/2307.01952",
-    "run_count": 71612356,
+    "run_count": 71612534,
     "url": "https://replicate.com/stability-ai/sdxl",
     "visibility": "public",
     "weights_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0"
@@ -3744,7 +3744,7 @@
     "name": "stable-diffusion-inpainting",
     "owner": "stability-ai",
     "paper_url": null,
-    "run_count": 18716335,
+    "run_count": 18716359,
     "url": "https://replicate.com/stability-ai/stable-diffusion-inpainting",
     "visibility": "public",
     "weights_url": null
@@ -5511,7 +5511,7 @@
     "name": "sdxl-emoji",
     "owner": "fofr",
     "paper_url": null,
-    "run_count": 7624581,
+    "run_count": 7624626,
     "url": "https://replicate.com/fofr/sdxl-emoji",
     "visibility": "public",
     "weights_url": null
@@ -6109,7 +6109,7 @@
     "name": "flux-pro",
     "owner": "black-forest-labs",
     "paper_url": null,
-    "run_count": 7493396,
+    "run_count": 7493513,
     "url": "https://replicate.com/black-forest-labs/flux-pro",
     "visibility": "public",
     "weights_url": null
@@ -6680,7 +6680,7 @@
     "name": "flux-1.1-pro",
     "owner": "black-forest-labs",
     "paper_url": null,
-    "run_count": 6487692,
+    "run_count": 6487907,
     "url": "https://replicate.com/black-forest-labs/flux-1.1-pro",
     "visibility": "public",
     "weights_url": null
@@ -7883,7 +7883,7 @@
     "name": "flux-dev",
     "owner": "black-forest-labs",
     "paper_url": null,
-    "run_count": 5869815,
+    "run_count": 5869922,
     "url": "https://replicate.com/black-forest-labs/flux-dev",
     "visibility": "public",
     "weights_url": "https://huggingface.co/black-forest-labs/FLUX.1-dev"
@@ -8456,7 +8456,7 @@
     "name": "proteus-v0.3",
     "owner": "datacte",
     "paper_url": null,
-    "run_count": 2411450,
+    "run_count": 2411512,
     "url": "https://replicate.com/datacte/proteus-v0.3",
     "visibility": "public",
     "weights_url": "https://huggingface.co/dataautogpt3/ProteusV0.3"
@@ -9953,7 +9953,7 @@
     "name": "flux-1.1-pro-ultra",
     "owner": "black-forest-labs",
     "paper_url": "https://blackforestlabs.ai/flux-1-1-ultra/",
-    "run_count": 1684179,
+    "run_count": 1684335,
     "url": "https://replicate.com/black-forest-labs/flux-1.1-pro-ultra",
     "visibility": "public",
     "weights_url": null
@@ -10572,7 +10572,7 @@
     "name": "latent-consistency-model",
     "owner": "fofr",
     "paper_url": null,
-    "run_count": 1216731,
+    "run_count": 1216733,
     "url": "https://replicate.com/fofr/latent-consistency-model",
     "visibility": "public",
     "weights_url": null
@@ -11407,7 +11407,7 @@
     "name": "realvisxl-v3-multi-controlnet-lora",
     "owner": "fofr",
     "paper_url": "https://huggingface.co/SG161222/RealVisXL_V3.0",
-    "run_count": 1007447,
+    "run_count": 1007458,
     "url": "https://replicate.com/fofr/realvisxl-v3-multi-controlnet-lora",
     "visibility": "public",
     "weights_url": null
@@ -12836,7 +12836,7 @@
     "name": "any-comfyui-workflow",
     "owner": "fofr",
     "paper_url": "https://github.com/fofr/cog-comfyui",
-    "run_count": 980272,
+    "run_count": 980286,
     "url": "https://replicate.com/fofr/any-comfyui-workflow",
     "visibility": "public",
     "weights_url": null
@@ -13440,7 +13440,7 @@
     "name": "sdxl-controlnet-lora",
     "owner": "batouresearch",
     "paper_url": null,
-    "run_count": 751451,
+    "run_count": 751453,
     "url": "https://replicate.com/batouresearch/sdxl-controlnet-lora",
     "visibility": "public",
     "weights_url": null
@@ -14499,7 +14499,7 @@
     "name": "recraft-v3",
     "owner": "recraft-ai",
     "paper_url": "https://recraft.ai",
-    "run_count": 372235,
+    "run_count": 372252,
     "url": "https://replicate.com/recraft-ai/recraft-v3",
     "visibility": "public",
     "weights_url": null
@@ -17598,7 +17598,7 @@
     "name": "stable-diffusion-3.5-large",
     "owner": "stability-ai",
     "paper_url": "https://arxiv.org/abs/2403.03206",
-    "run_count": 180637,
+    "run_count": 180651,
     "url": "https://replicate.com/stability-ai/stable-diffusion-3.5-large",
     "visibility": "public",
     "weights_url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-large"
@@ -18260,7 +18260,7 @@
     "name": "ideogram-v2",
     "owner": "ideogram-ai",
     "paper_url": "https://ideogram.ai/",
-    "run_count": 139902,
+    "run_count": 139906,
     "url": "https://replicate.com/ideogram-ai/ideogram-v2",
     "visibility": "public",
     "weights_url": "https://ideogram.ai/"
@@ -19442,7 +19442,7 @@
     "name": "realvisxl-v3.0-turbo",
     "owner": "adirik",
     "paper_url": null,
-    "run_count": 115553,
+    "run_count": 115556,
     "url": "https://replicate.com/adirik/realvisxl-v3.0-turbo",
     "visibility": "public",
     "weights_url": null
@@ -20104,7 +20104,7 @@
     "name": "ideogram-v2-turbo",
     "owner": "ideogram-ai",
     "paper_url": "https://ideogram.ai/",
-    "run_count": 106422,
+    "run_count": 106423,
     "url": "https://replicate.com/ideogram-ai/ideogram-v2-turbo",
     "visibility": "public",
     "weights_url": "https://ideogram.ai/"

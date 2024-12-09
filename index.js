@@ -40,7 +40,7 @@ Interpreting this table:
 ---
 
 Model | Runs | Prompt | img2img | Mask | Aspect Ratio | WxH | Multi-output
------ | ---- | ------ | ------- | ---- | ------------ | ------------`)
+----- | ---- | ------ | ------- | ---- | ------------ | --- | ------------`)
 
 for (const model of mostRunModels) {
   const input = model.latest_version.openapi_schema.components.schemas.Input.properties

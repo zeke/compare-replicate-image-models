@@ -17,7 +17,7 @@ Interpreting this table:
 ---
 
 Model | Runs | Prompt | img2img | Mask | Aspect Ratio | WxH | Multi-output
------ | ---- | ------ | ------- | ---- | ------------ | ------------
+----- | ---- | ------ | ------- | ---- | ------------ | --- | ------------
 [sdxl-lightning-4step](https://replicate.com/bytedance/sdxl-lightning-4step) | 598.6m | ✅ | ❌ | ❌ | ❌ | ❌ | ✅
 [flux-schnell](https://replicate.com/black-forest-labs/flux-schnell) | 152.2m | ✅ | ❌ | ❌ | ✅ | ❌ | ✅
 [stable-diffusion](https://replicate.com/stability-ai/stable-diffusion) | 109.7m | ✅ | ❌ | ❌ | ❌ | ❌ | ✅
@@ -41,12 +41,12 @@ Model | Runs | Prompt | img2img | Mask | Aspect Ratio | WxH | Multi-output
 [any-comfyui-workflow](https://replicate.com/fofr/any-comfyui-workflow) | 980.3k | ❌ | ❌ | ❌ | ❌ | ❌ | ✅
 [sdxl-controlnet-lora](https://replicate.com/batouresearch/sdxl-controlnet-lora) | 751.5k | ✅ | ✅ | ❌ | ❌ | ❌ | ✅
 [sticker-maker](https://replicate.com/fofr/sticker-maker) | 571.6k | ✅ | ❌ | ❌ | ❌ | ❌ | ✅
-[recraft-v3](https://replicate.com/recraft-ai/recraft-v3) | 372.2k | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
+[recraft-v3](https://replicate.com/recraft-ai/recraft-v3) | 372.3k | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
 [realvisxl2-lcm](https://replicate.com/lucataco/realvisxl2-lcm) | 290.3k | ✅ | ✅ | ✅ | ❌ | ❌ | ✅
 [realvisxl-v2.0](https://replicate.com/lucataco/realvisxl-v2.0) | 280.5k | ✅ | ✅ | ✅ | ❌ | ❌ | ✅
 [sdxl-multi-controlnet-lora](https://replicate.com/fofr/sdxl-multi-controlnet-lora) | 205.5k | ✅ | ✅ | ✅ | ❌ | ❌ | ✅
 [dreamshaper-xl-turbo](https://replicate.com/lucataco/dreamshaper-xl-turbo) | 186.1k | ✅ | ❌ | ❌ | ❌ | ❌ | ✅
-[stable-diffusion-3.5-large](https://replicate.com/stability-ai/stable-diffusion-3.5-large) | 180.6k | ✅ | ✅ | ❌ | ✅ | ❌ | ✅
+[stable-diffusion-3.5-large](https://replicate.com/stability-ai/stable-diffusion-3.5-large) | 180.7k | ✅ | ✅ | ❌ | ✅ | ❌ | ✅
 [ideogram-v2](https://replicate.com/ideogram-ai/ideogram-v2) | 139.9k | ✅ | ✅ | ✅ | ✅ | ❌ | ❌
 [open-dalle-v1.1](https://replicate.com/lucataco/open-dalle-v1.1) | 122.9k | ✅ | ✅ | ✅ | ❌ | ❌ | ✅
 [realvisxl-v3.0-turbo](https://replicate.com/adirik/realvisxl-v3.0-turbo) | 115.6k | ✅ | ✅ | ✅ | ❌ | ❌ | ✅
