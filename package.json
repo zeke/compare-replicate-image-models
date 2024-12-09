@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+  "scripts": {
+    "test": "standard --fix",
+    "build": "npm test && node index.js > README.md"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "numeral": "^2.0.6",
+    "replicate": "^1.0.1"
+  }
+}
